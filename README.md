@@ -44,26 +44,24 @@ At the end of the last "}" do not put a "," !
 
 Exemple :
 
-```    
+```
+{
     "collections": [
         {
-            "collection": "The Sneks",
-            "price": 1.99
-        }
-    ],  
-```
-
-```    
-    "webhooks": [
-        {
-            "name": "<name>",
-            "url": "<url>"
-        },
-        {
-            "name": "<name>",
-            "url": "<url>"
-        }
+            "collection": "<collection>",
+            "price": 1,
+            "webhooks": [
+                {
+                    "name": "<name>",
+                    "url": "<url>",
+                    "footer_name": "<footer_name>",
+                    "footer_image_url": "<footer_image_url>"
+                } !!!
+            ]
+        } !!!
     ],
+    "avatar_url": "https://pbs.twimg.com/profile_images/1434909426838814727/b1R0dmnf.jpg"
+}
 ```
 
 ## Execution :
